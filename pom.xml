@@ -8,6 +8,7 @@
   <name>solr-payload-string-function-query</name>
   <url>http://maven.apache.org</url>
   <properties>
+      <solr-version>8.2.0</solr-version>
      <jdk-version>1.8</jdk-version>
      <maven-compiler-plugin-version>3.8.1</maven-compiler-plugin-version>
      <junit-jupiter-api-version>5.5.2</junit-jupiter-api-version>
@@ -31,8 +32,24 @@
     <dependency>
         <groupId>org.apache.solr</groupId>
         <artifactId>solr-core</artifactId>
-        <version>8.2.0</version>
+        <version>${solr-version}</version>
     </dependency>
+      <dependency>
+          <groupId>org.apache.solr</groupId>
+          <artifactId>solr-test-framework</artifactId>
+          <version>${solr-version}</version>
+          <scope>test</scope>
+          <exclusions>
+              <exclusion>
+                  <groupId>org.restlet.jee</groupId>
+                  <artifactId>org.restlet</artifactId>
+              </exclusion>
+              <exclusion>
+                  <groupId>org.restlet.jee</groupId>
+                  <artifactId>org.restlet.ext.servlet</artifactId>
+              </exclusion>
+          </exclusions>
+      </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
