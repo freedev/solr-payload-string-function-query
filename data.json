@@ -1,0 +1,18 @@
+[{
+   "id" : "1",
+    "field_dpss" : [
+        "key|EUR",
+        "key2|USD",
+        "key3|GBP"
+    ],
+    "field_dpii" : [ 1 ]
+},
+{
+   "id" : "2",
+    "field_dpss" : [
+        "key|eur",
+        "key2|usd",
+        "key3|gbp"
+    ],
+    "field_dpii" : [ 2 ]
+}]
