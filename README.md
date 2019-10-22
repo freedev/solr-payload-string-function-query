@@ -37,9 +37,11 @@ You can use `spayload` even as sorting function.
    sort=spayload(payloadField,value) asc
 
 ## Why?
-This project was originally conceived as a solution for storing bounding boxes with terms for OCR highlighting.
 
-See it in action at http://github.com/o19s/pdf-discovery-demo.
+I started to use payloads because I had the classical per-store pricing problem.
+Thousands of stores across the world and different prices for each store.
+I found payloads very useful started to use it for many reasons, like enabling/disabling the product for such store, save the stock availability, or save the other info like buy/sell price, discount rates, and so on. 
+But All those information are numbers, but stores can also be in different countries, I mean for example would be useful also have the currency and other attributes related to the store.
 
 ## Requirements
 - Solr 7.x
