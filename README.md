@@ -40,7 +40,7 @@ You can use `spayload` even as sorting function.
 
 I started to use payloads because I had the classical per-store pricing problem.
 Thousands of stores across the world and different prices for each store.
-I found payloads very useful started to use it for many reasons, like enabling/disabling the product for such store, save the stock availability, or save the other info like buy/sell price, discount rates, and so on. 
+I found payloads very useful for many reasons, like enabling/disabling the product for such store, save the stock availability, or save the other infos like buy/sell price, discount rates, and so on. 
 But All those information are numbers, but stores can also be in different countries, I mean for example would be useful also have the currency and other attributes related to the store.
 
 ## Requirements
