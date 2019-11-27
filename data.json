@@ -5,7 +5,11 @@
         "key2|USD",
         "key3|GBP"
     ],
-    "field_dpii" : [ 1 ]
+    "field_dpii" : [ 
+        "key|1",
+        "key2|2",
+        "key3|3"
+    ]
 },
 {
    "id" : "2",
@@ -14,5 +18,9 @@
         "key2|usd",
         "key3|gbp"
     ],
-    "field_dpii" : [ 2 ]
+    "field_dpii" : [ 
+        "key|1",
+        "key2|2",
+        "key3|3"
+    ]
 }]
