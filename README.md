@@ -9,7 +9,7 @@ Example document:
     "id":"my sample doc",
     "currencyPayload":[
       "store1|EUR",
-      "store1|USD",
+      "store2|USD",
       "store3|GBP"
     ]
 }
