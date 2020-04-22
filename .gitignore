@@ -2,4 +2,5 @@
 /target/
 .idea
 .DS_Store
-.iml
+*.iml
+

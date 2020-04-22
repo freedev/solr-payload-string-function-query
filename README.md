@@ -9,13 +9,13 @@ Example document:
     "id":"my sample doc",
     "currencyPayload":[
       "store1|EUR",
-      "store1|USD",
+      "store2|USD",
       "store3|GBP"
     ]
 }
 ```
 
-Querying with `fl=` for `spayload(currencyPayload,store3)` would generate a response like the following:
+Having `spayload(currencyPayload,store3)` in the `fl` (Field List) Parameter would generate a response like:
 
 ```
 {
